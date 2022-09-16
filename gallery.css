@@ -1,0 +1,199 @@
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn {
+    animation-name: fadeIn;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-duration: 5s;
+    cursor: pointer;
+  }
+
+  @keyframes fadeIn1 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn1 {
+    animation-name: fadeIn1;
+    animation-timing-function: ease-in-out;
+    /* animation-delay:; */
+    animation-iteration-count: 1;
+    animation-duration: 10s;
+    cursor: pointer;
+  }
+  #fadeIn1 :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+
+  #fadeIn :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+
+  #fadeIn2 :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+
+  #fadeIn3 :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+
+  #fadeIn4 :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+
+  #fadeIn5 :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+  #fadeIn6 :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+  #fadeIn7 :hover{
+    transform: scale(120%);
+    transition: 1s;
+    /* height: 50vh; */
+  }
+  @keyframes fadeIn2 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn2 {
+    animation-name: fadeIn2;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-duration: 20s;
+    cursor: pointer;
+  }
+
+  @keyframes fadeIn3 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn3 {
+    animation-name: fadeIn3;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-duration: 30s;
+  }
+
+  @keyframes fadeIn4 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn4 {
+    animation-name: fadeIn4;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-duration: 40s;
+    cursor: pointer;
+  }
+
+  @keyframes fadeIn5 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn5 {
+    animation-name: fadeIn5;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-duration: 60s;
+    cursor: pointer;
+  }
+
+  @keyframes fadeIn6 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn6 {
+    animation-name: fadeIn6;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-duration: 80s;
+    cursor: pointer;
+  }
+
+  @keyframes fadeIn7 {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  #fadeIn7 {
+    animation-name: fadeIn7;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-iteration-count: 1;
+    animation-duration: 100s;
+    cursor: pointer;
+  }
+
+  
+  

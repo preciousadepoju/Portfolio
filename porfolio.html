@@ -12,83 +12,146 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     <script src="/bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="https://s.cdpn.io/53148/requestAnimationFrame.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
 </head>
-<body>
+<body style="background-color: rgb(0, 0, 0);">
 
+ 
+  <nav id="navBar" style="background-color: rgb(0, 0, 0); height: 9.5vh; font-size: 15px; font-weight: 500; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; " class=" p-3 navbar navbar-expand-lg mx-auto text-blue ">
+                                          
+    <ul class="navbar-nav  " id="under">
+      <li class="nav-item " ><a href="" id="link1" class="nav-link mr-12">Home</a></li>
+      <li class="nav-item"><a href="" id="link2" class="nav-link mr-12">About</a></li>
+      <li class="nav-item"><a href="" id="link3" class="nav-link">Work</a></li>
+      <li class="nav-item"><a href="/gallery.html" id="link4" class="nav-link">Gallery</a></li>
+  </ul>
 
-        <div class="p-3 mb-5">
-            <div class="row  row-md-cols-4 row-cols-2 " style="height:86vh; " >
-                <div class="col p-2 border w-25 bg-light mb-1" style="background-image: url(./images/pexels-engin-akyurt-1446948.jpg); background-size: 100% 100%; position: static; height: 97vh; box-shadow: 0px 4px 10px black;">
-                    <div class="mt-2 ms-5" style="border-radius:50%; height:40%; width:70%;">
-                    <img src="/images/pre 4.jpeg" alt="" style="border-radius:50%; height:100%; width:100%; " class="img img-fluid avatar">
-                    </div>
-                    <span class="text ms-4" style="font-size:1.8em; color:rgb(180, 170, 170); font-weight:900; font-family:sans-serif">Adepoju Precious</span>
-                    <span class="text ms-2" style="font-size:1.5em; color:rgb(170, 164, 164); font-weight:900; font-family:sans-serif">A Full Stack Developer</span>
-                    <span class="text ms-4" style="font-size:1em; color:rgb(150, 140, 140); font-weight:900; font-family:cursive">A Student of SQI College of ICT</span>
-                    <br><br><br><br><br><br><br>
-                    <span class="text-light ms-3">Contact: <ul style="list-style-type:none;"><li ><img src="/images/fb.svg"  alt=""><a href="#" style="text-decoration: none; color:rgb(192, 187, 187);" class="ms-3">Precious Adepoju</a></li>
-                                        <li ><img src="/images/ins.svg" alt=""> <a href="#" style="text-decoration:none ; color:rgb(192, 187, 187);"> c.addict</a></li>
-                                        <li >Tel : <a href="#" style="text-decoration: none; color:rgb(192, 187, 187);">07025013532</a></li>
-                    </ul></span>
-                </div>
-                <div class="col  w-75">
-                    <center>
-                        <h1 style="text-shadow:0px 3px 6px black; font-weight: 900;" >My Portfolio</h1>
-                    </center>
+</nav>
+              
 
-                    <div class="row row-cols-1 row-cols-md-3 g-4 mt-3" >
-                        <div class="col">
-                          <div class="card h-100" id="candid2" style="">
-                            <!-- <img src="..." class="card-img-top" alt="..."> -->
-                            <div class="card-body">
-                              <h3 class="card-title" style="margin-left:70px; font-weight: 800;color:rgb(87, 94, 99);">My Projects</h3>
-                              <p class="card-text" style="font-size:20px; font-family: fantacy; line-height:25px; color: rgb(87, 94, 99);">I finished many projects in a year of learning and also some after the year of learning <a href="#" style="font-size: smaller;">Click here for the projects</a>.</p>
-                            </div>
-                            
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100"  id="candid">
-                            <!-- <img src="..." class="card-img-top" alt="..."> -->
-                            <div class="card-body">
-                              <h5 class="card-title"></h5>
-                              <p class="card-text">Check Out my Progress in the Web Languages. <a href="#">Click Here</a> </p>
-                            </div>
-                            
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="card h-100" id="candid1">
-                            <!-- <img src="..." class="card-img-top" alt="..."> -->
-                            <div class="card-body">
-                              <h5 class="card-title">Card title</h5>
-                              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                            </div>
-                            
-                          </div>
-                        </div>
-                      </div>
-                      
-                     
-                <br><br><br><br><br><br><br>
-
-                <p id="swing"> My name is Adepoju Precious Oluwafifunmi in full and I am a FullStack Developer and my mentor is Mark Zuckerberg.</p>
-                <p style="font-size: 20px; font-weight:900;" id="swing">I am a student of SQI College of ICT located in Ogbomoso.</p>
-                
-                
-
-
-
-
-
-
-
-
-                <!-- <p>I am certified for finishing as a FullStack Developer highly skilled in all languages under the Frontend and Backend Web Development.</p> -->
-                
-            </div>
-        </div>
-        
+              <canvas id="container" width="200"  height="200"></canvas>
   
+              <section class="row row-cols-1 row-cols-md-3 g-4 p-5 w-100" id="secTion1">
+                <div class="col p-5" id="cOl">
+                 <p id="bounceIn"> Hi, I am Precious.</p>
+                  <p id="rubberBand">I build life through programming.</p>
+                  <p id="flip">I am a  Nigerian <span class="img-fluid"> <svg class=" me-1 ms-1 "  width='16' height='16' viewBox='0 0 16 16' fill='none' xmlns='http://www.w3.org/2000/svg'><path d='M16 2.667H0v10.666h16V2.666z' fill='#F0F0F0'/><path d='M5.333 2.667H0v10.666h5.333V2.666zM16 2.667h-5.333v10.666H16V2.666z' fill='#4A945A'/></svg></span> web developer who loves programming.</p>
+                </div>
+                <div class="col " id="fadeIn"></div>
+              </section>
+
+             
+             <script>
+  
+                     var points = [],
+                     velocity2 = 5, // velocity squared
+                     canvas = 
+                     document.getElementById('container'),
+                     context = canvas.getContext('2d'),
+                     radius = 5,
+                     boundaryX = 200,
+                     boundaryY = 200,
+                     numberOfPoints = 30;
+
+                    init();
+
+                  function init() {
+                    // create points
+                    for (var i = 0; i<numberOfPoints; i++) {
+                      createPoint();
+                    }
+                    // create connections
+                    for (var i = 0, l=points.length; i<l; i++) {
+                      var point = points[i];
+                      if(i == 0) {
+                        points[i].buddy = points[points.length-1];
+                      } else {
+                        points[i].buddy = points[i-1];
+                      }
+                    }
+                    
+                    // animate
+                    animate();
+                  }
+
+                  function createPoint() {
+                    var point = {}, vx2, vy2;
+                    point.x = Math.random()*boundaryX;
+                    point.y = Math.random()*boundaryY;
+                    // random vx 
+                    point.vx = (Math.floor(Math.random())*2-1)*Math.random();
+                    vx2 = Math.pow(point.vx, 2);
+                    // vy^2 = velocity^2 - vx^2
+                    vy2 = velocity2 - vx2;
+                    point.vy = Math.sqrt(vy2) * (Math.random()*2-1);
+                    points.push(point);
+                  }
+
+                  function resetVelocity(point, axis, dir) {
+                    var vx, vy;
+                    if(axis == 'x') {
+                      point.vx = dir*Math.random();  
+                      vx2 = Math.pow(point.vx, 2);
+                    // vy^2 = velocity^2 - vx^2
+                    vy2 = velocity2 - vx2;
+                    point.vy = Math.sqrt(vy2) * (Math.random()*2-1);
+                    } else {
+                      point.vy = dir*Math.random();  
+                      vy2 = Math.pow(point.vy, 2);
+                    // vy^2 = velocity^2 - vx^2
+                    vx2 = velocity2 - vy2;
+                    point.vx = Math.sqrt(vx2) * (Math.random()*2-1);
+                    }
+                  }
+
+                  function drawCircle(x, y) {
+                    context.beginPath();
+                    context.arc(x, y, radius, 0, 2 * Math.PI, false);
+                    context.fillStyle = '#97badc';
+                    context.fill();  
+                  }
+
+                  function drawLine(x1, y1, x2, y2) {
+                    context.beginPath();
+                    context.moveTo(x1, y1);
+                    context.lineTo(x2, y2);
+                    context.strokeStyle = '#8ab2d8'
+                    context.stroke();
+                  }  
+
+                  function draw() {
+                    for(var i =0, l=points.length; i<l; i++) {
+                      // circles
+                      var point = points[i];
+                      point.x += point.vx;
+                      point.y += point.vy;
+                      drawCircle(point.x, point.y);
+                      // lines
+                      drawLine(point.x, point.y, point.buddy.x, point.buddy.y);
+                      // check for edge
+                      if(point.x < 0+radius) {
+                        resetVelocity(point, 'x', 1);
+                      } else if(point.x > boundaryX-radius) {
+                        resetVelocity(point, 'x', -1);
+                      } else if(point.y < 0+radius) {
+                        resetVelocity(point, 'y', 1);
+                      } else if(point.y > boundaryY-radius) {
+                        resetVelocity(point, 'y', -1);
+                      } 
+                    }
+                  }
+
+                  function animate() {
+
+                    context.clearRect ( 0 , 0 , 200 , 200 );
+                    draw();
+                    requestAnimationFrame(animate);
+                  }
+
+
+              </script>
 </body>
 </html>
+
+
